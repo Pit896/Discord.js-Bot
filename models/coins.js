@@ -1,5 +1,5 @@
 const mongoose = require('mongoose')
-coinsSchema = mongoose.Schema({
+const coinsSchema = mongoose.Schema({
     _id: mongoose.Schema.Types.ObjectId,
     userID: String,
     coins: Number,
