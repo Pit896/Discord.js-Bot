@@ -1,5 +1,5 @@
 const mongoose = require('mongoose')
-settingSchema = mongoose.Schema({
+const settingSchema = mongoose.Schema({
     _id: mongoose.Schema.Types.ObjectId,
     guildID: String,
 
